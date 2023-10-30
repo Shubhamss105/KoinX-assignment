@@ -14,13 +14,13 @@ const TaxForm = () => {
 
         <div className="flex gap-5 md:gap-10 ">
           <div className="flex flex-col md:flex-row lg:flex-row gap-2  place-items-center">
-            <label htmlFor="" className="leading-6 font-normal">
+            <label htmlFor="" className="leading-6 font-normal ml-[-6rem] md:ml-0">
               Financial Year
             </label>
             <select
               name=""
               id=""
-              className="rounded-lg outline-none bg-[#EFF2F5] flex h-10 md:h-12 w-[10.25rem] md:w-[15.56rem] px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch placeholder:text-black font-medium text-lg"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex h-10 md:h-12 w-[12.5rem] md:w-[15.56rem] px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch placeholder:text-black font-medium text-lg"
             >
               <option value="" className="text-center font-inter font-medium">
                 FY 2023-24
@@ -29,13 +29,13 @@ const TaxForm = () => {
           </div>
 
           <div className="flex flex-col md:flex-row lg:flex-row gap-2 justify-start  place-items-center">
-            <label htmlFor="" className="leading-6 font-normal ">
+            <label htmlFor="" className="leading-6 font-normal ml-[-9rem] md:ml-0">
               Country
             </label>
             <select
               name=""
               id=""
-              className="rounded-lg outline-none bg-[#EFF2F5] flex px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch w-[10.25rem] md:w-[15.56rem] h-10 md:h-12 placeholder:text-black font-medium text-lg"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch  md:w-[18rem] h-10 w-[12.5rem] md:h-12 placeholder:text-black font-medium text-lg"
             >
               <option value="" className="text-center font-medium">
                 Australia
@@ -55,7 +55,7 @@ const TaxForm = () => {
               Enter purchase price of crypto
             </label>
             <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 30,000"
               id="name"
@@ -68,7 +68,7 @@ const TaxForm = () => {
               Enter sale price of crypto
             </label>
             <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14 px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 20,000"
               id="name"
@@ -85,7 +85,7 @@ const TaxForm = () => {
               Enter your expenses
             </label>
             <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 5,000"
               id="name"
@@ -100,7 +100,7 @@ const TaxForm = () => {
               <div className="flex gap-4 md:gap-2">
                 <div>
                 <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 5,000"
               id="name"
@@ -109,7 +109,7 @@ const TaxForm = () => {
                 </div>
                 <div>
                 <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 5,000"
               id="name"
@@ -131,7 +131,7 @@ const TaxForm = () => {
             <label className="text-sm font-normal leading-6" htmlFor="name">
               Select your Annual Income
             </label>
-            <select name="" id=""  className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 placeholder:text-black font-medium text-lg">
+            <select name="" id=""  className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 placeholder:text-black font-medium text-lg">
               <option value="">$ 45,000</option>
               <option value="">$ 120,000</option>
             </select>
@@ -157,7 +157,7 @@ const TaxForm = () => {
             <label className="text-sm font-normal leading-6" htmlFor="name">
               Select your Annual Income
             </label>
-            <select name="" id=""  className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 placeholder:text-black font-medium text-lg">
+            <select name="" id=""  className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 placeholder:text-black font-medium text-lg">
               <option value="">$ 45,000</option>
               <option value="">$ 120,000</option>
             </select>
@@ -169,7 +169,7 @@ const TaxForm = () => {
               Enter sale price of crypto
             </label>
             <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 20,000"
               id="name"
@@ -188,7 +188,7 @@ const TaxForm = () => {
               Capital gains amount
             </label>
             <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 5,000"
               id="name"
@@ -201,7 +201,7 @@ const TaxForm = () => {
               Discount for long term gains
             </label>
             <input
-              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14  bg-transparent px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-lg outline-none bg-[#EFF2F5] flex w-full h-14   px-3 py-2 placeholder:text-black font-medium text-lg focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="$ 2,500"
               id="name"
