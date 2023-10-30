@@ -112,7 +112,7 @@ const TaxForm = () => {
               <select
                 name=""
                 id=""
-                className="rounded-lg outline-none bg-[#EFF2F5] flex h-10 md:h-12 w-[12.5rem] md:w-[15.56rem] px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch placeholder:text-black font-medium text-lg"
+                className="rounded-lg outline-none bg-[#EFF2F5] flex h-10 md:h-12 w-[11rem] md:w-[15.56rem] px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch placeholder:text-black font-medium text-lg"
               >
                 <option value="" className="text-center font-inter font-medium">
                   FY 2023-24
@@ -130,7 +130,7 @@ const TaxForm = () => {
               <select
                 name=""
                 id=""
-                className="rounded-lg outline-none bg-[#EFF2F5] flex px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch  md:w-[18rem] h-10 w-[12.5rem] md:h-12 placeholder:text-black font-medium text-lg"
+                className="rounded-lg outline-none bg-[#EFF2F5] flex px-3 py-2 md:py-3 flex-col justify-between items-center flex-shrink-0 self-stretch  md:w-[18rem] h-10 w-[11rem] md:h-12 placeholder:text-black font-medium text-lg"
               >
                 <option value="" className="text-center font-medium">
                   Australia
